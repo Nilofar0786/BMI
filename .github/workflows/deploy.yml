@@ -26,12 +26,14 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
-        working-directory: Bmi
+        run: |
+          cd Bmi
+          npm install
 
       - name: Build
-        run: npm run build
-        working-directory: Bmi
+        run: |
+          cd Bmi
+          npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

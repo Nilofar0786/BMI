@@ -1,10 +1,9 @@
-"homepage": "https://github.io",
-
 {
   "name": "bmi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
